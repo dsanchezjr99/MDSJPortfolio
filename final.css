@@ -5,14 +5,14 @@
   body {
     font-family: Arial;
     padding: 10px;
-    background: blue;
+    background:blue;
   }
   
   /* Header/Blog Title */
   .header {
     padding: 30px;
     text-align: center;
-    background: white;
+    background: beige;
   }
   
   .header h1 {
@@ -46,20 +46,22 @@
   .leftcolumn {   
     float: left;
     width: 75%;
+  
   }
   
   /* Right column */
   .rightcolumn {
     float: left;
     width: 25%;
-    background-color: #f1f1f1;
+    background-color: gray;
     padding-left: 20px;
   }
   
   /* Fake image */
-  .fakeimg {
+  .profilepic {
+    border-radius: 8px;
     background-color: #aaa;
-    width: 100%;
+    width: 25%;
     padding: 20px;
   }
   
@@ -78,11 +80,37 @@
   }
   
   /* Footer */
-  .footer {
+  .contact {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: gray;
     margin-top: 20px;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    border: 3px solid black;
+    padding: 10px;
+    
+  }
+
+ .followmecard {
+   background-color:beige;
+   padding: 50px;
+   border: 3px solid black;
+ }
+
+ .tskillscard{
+   background-color:white;
+   padding: 20px;
+   border: 3px solid black;
+ }
+
+ .aboutmecard{
+   padding: 40px;
+ }
+
+  .reach-out{
+    width: 100%;
   }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
